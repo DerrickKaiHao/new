@@ -1,0 +1,73 @@
+<div class="addJobs">
+  <nz-layout>
+    <nz-sider>
+      <div style="width: 200px; margin-top: 60px; text-align: left">
+        <ul nz-menu [nzMode]="'inline'" nzTheme="dark" [nzInlineCollapsed]="isCollapsed">
+
+          <li nz-menu-item nz-tooltip nzPlacement="right" [nzTitle]="isCollapsed ? 'Overview' : ''">
+            <span title>
+                <i nz-icon nzType="apple" nzTheme="outline"></i>
+              <span>Overview</span>
+            </span>
+          </li>
+
+          <li nz-submenu>
+            <span title>
+                <i nz-icon nzType="android" nzTheme="outline"></i>
+              <span>Vendors</span>
+            </span>
+            <ul>
+              <li nz-menu-item>Your Vendors</li>
+              <li nz-menu-item>Source Vendors</li>
+            </ul>
+          </li>
+
+          <li nz-menu-item nz-tooltip nzPlacement="right" [nzTitle]="isCollapsed ? 'Jobs' : ''">
+              <span title>
+                  <i nz-icon nzType="windows" nzTheme="outline"></i>
+                <span>Jobs</span>
+              </span>
+            </li>
+
+
+          <li nz-submenu>
+            <span title>
+                <i nz-icon nzType="youtube" nzTheme="outline"></i>
+              <span>Onboarding</span>
+            </span>
+            <ul>
+              <li nz-menu-item>Option 9</li>
+              <li nz-menu-item>Option 10</li>
+              <li nz-menu-item>Option 11</li>
+            </ul>
+          </li>
+
+          <li nz-menu-item nz-tooltip nzPlacement="right" [nzTitle]="isCollapsed ? 'Expenses' : ''">
+              <span title>
+                <i nz-icon nzType="shopping" nzTheme="outline"></i>
+                <span>Expenses</span>
+              </span>
+            </li>
+
+
+        </ul>
+      </div>
+
+
+
+    </nz-sider>
+    <nz-layout>
+      <nz-header>Header</nz-header>
+      <nz-content>
+        
+        
+
+      </nz-content>
+      <!-- <nz-footer>Footer</nz-footer> -->
+    </nz-layout>
+  </nz-layout> 
+
+
+
+
+</div>
